@@ -1,82 +1,412 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Italian Bistro</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Italian Bistro</title>
 
-  <!-- Adicionando fontes que iremos utilizar -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Adicionando fontes que iremos utilizar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
-  <link href="https://fonts.google.com/specimen/Pacifico?query=paci" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.google.com/specimen/Pacifico?query=paci"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  <nav class="navbar">
-    <img class="logo-navbar" src="./imgs/logo/logo_site_bannerprincipal.png" alt="">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="logo-navbar"
+        src="./imgs/logo/logo_site_bannerprincipal.png"
+        alt=""
+      />
 
-    <div class="navbar-links">
-      <a class="navbar-item" href="index.html">Home</a>
-      <a class="active navbar-item" href="menu.html">Menu</a>
-      <a class="navbar-item" href="#">Contato</a>
-    </div>
-  </nav>
+      <div class="navbar-links">
+        <a class="navbar-item" href="index.html">Home</a>
+        <a class="active navbar-item" href="menu.html">Menu</a>
+        <a class="navbar-item" href="#">Contato</a>
+      </div>
+    </nav>
 
-  <div class="container">
-    <img class="banner" src="./imgs/menu/imagem_banner_menu.jpg" alt="banner menu">
-    <div class="on-image">
-      <h2 class="center">CONHEÇA NOSSO</h2>
-      <h1 class="center" style="font-family: 'volkhov'; color: white;">MENU</h1>
-    </div>
-  </div>
-
- 
-
-  <footer>
-    <div class="col col-a">
-      <h1 class="default-font">SOBRE NÓS</h1>
-      <hr style="border-color: black; margin-bottom: 2%; margin-top: 0;">
-      <p class="default-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Dolore nulla quasi assumenda dolor. Quas ipsam vel corrupti labore 
-        animi veniam expedita exercitationem porro placeat velit obcaecati id, 
-        amet cupiditate eligendi.</p>
-    </div>
-
-    <div class="col col-b">
-      <img src="./imgs/logo/logo_site_rodape.png" alt="logo rodape" style="width: 200px;">
-      <p class="default-font" style="text-align: center;">
-        Rua Florida, 157 <br>
-        Mauá - SP <br>
-        11 4547-1321 | 11 99999-9999 <br>
-        contato@italianbistro.com
-      </p>
-    </div>
-
-    <div class="col col-c">
-      <p class="default-font" style="text-align: end;">
-        SEGUNDA A QUINTA: <br>
-        10h às 15h | 18h às 22h <br>
-        <br>
-        SEXTA E SÁBADO: <br>
-        10h às 16h | 17h às 00h <br>
-        <br>
-        DOMINGO: <br>
-        10h às 16h <br>
-        <br>
-      </p>
-
-      <div>
-        <img class="icons" src="./icons/icones_facebook_preto.png" alt="icon facebook">
-        <img class="icons" src="./icons/icones_instragram_preto.png" alt="icon instagram">
+    <div class="container">
+      <img
+        class="banner"
+        src="./imgs/menu/imagem_banner_menu.jpg"
+        alt="banner menu"
+      />
+      <div class="on-image">
+        <h2 class="center">CONHEÇA NOSSO</h2>
+        <h1 class="center" style="font-family: 'volkhov'; color: white">
+          MENU
+        </h1>
       </div>
     </div>
-  </footer>
 
-</body>
+    <div class="special">
+      <div class="title" style="padding-bottom: 2%">
+        <h1 class="yellow-cursive-font">Os mais pedidos</h1>
+        <h2 class="default-font">Conheça os carros chefes da casa</h2>
+      </div>
+
+      <div class="most-orded">
+        <div class="most-orded-item">
+          <img
+            src="./imgs/menu/imagem_maispedidos_arancini.jpg"
+            alt="prato mais pedido"
+          />
+          <div class="most-orded-item-description">
+            <h4 class="default-font" style="font-size: larger">Arancini</h4>
+            <p class="default-font">
+              Clássicos bolinhos de risoto. Ideal para entradas e iniciar sua
+              experiência gastronômica.
+            </p>
+          </div>
+        </div>
+
+        <div class="most-orded-item">
+          <img
+            src="./imgs/menu/imagem_maispedidos_carbonara.jpg"
+            alt="prato mais pedido"
+          />
+          <div class="most-orded-item-description">
+            <h4 class="default-font" style="font-size: larger">Carbonara</h4>
+            <p class="default-font">
+              Equilibrio perfeito entre nossa clássica massa fresca, guanciale,
+              ovo e queijo pecorino.
+            </p>
+          </div>
+        </div>
+
+        <div class="most-orded-item">
+          <img
+            src="./imgs/menu/imagem_maispedidos_tiramisu.jpg"
+            alt="prato mais pedido"
+          />
+          <div class="most-orded-item-description">
+            <h4 class="default-font" style="font-size: larger">Tiramisu</h4>
+            <p class="default-font">
+              Perfeitas camadas de bolacha champagne embebidos em café.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="title" style="padding-top: 5%">
+        <h1 class="yellow-cursive-font">Entrada</h1>
+      </div>
+      <div class="entries">
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">PESTO</p>
+            <p class="price">49.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            O clássico bolinho milanês recheado com queijos artesanais.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">FOCACCIA</p>
+            <p class="price">28.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Foccacia de alecrim, pão rustico, tomatinhos assados, riccota fresca
+            e manteiga de rúcula.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">BRUSCHETTE</p>
+            <p class="price">29.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Pão italiano com ragu de linguiça levemente picante, manjericão e
+            parmesão.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">OUVO</p>
+            <p class="price">35.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Ovo caipira pochê, linguiça e funghi ao melhor estilo camponês
+            servido com pães.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">BURRATA</p>
+            <p class="price">59.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Burrata cremosa Almeida Prado, rúcula, tomates, grissimo e pães.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">FORMAGGI</p>
+            <p class="price">85.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Pecorino romano, gorgonzola de Cruzillia, queijo canastra de Meuro,
+            nozes, geléia de mel trufado.
+          </p>
+        </div>
+      </div>
+
+      <div class="title" style="padding-top: 5%">
+        <h1 class="yellow-cursive-font">Prato Principal</h1>
+      </div>
+      <div class="entries">
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">PESTO</p>
+            <p class="price">49.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Espaguete com pesto de manjericão, burrata cremosa e raspas de limão
+            siciliano.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">GNOCCHI</p>
+            <p class="price">49.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Nhoque de batata tostado na panela ao molho de gorgonzola, abobrinha
+            e espinafre
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">CARBONARA</p>
+            <p class="price">59.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Spaghetti de grano duro com molho de Carbonara de parmesão, gema
+            caipira, guanciale e bacon.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">TAGLIOLINI</p>
+            <p class="price">59.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Massa artesanal com ragu de cogumelos trufados e gema curada.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">RAVIOLI</p>
+            <p class="price">69.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Massa recheada com camarão e servida com amêmdoas laminadas.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">GAMBERI</p>
+            <p class="price">98.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Camarões na brasa, abobrinhas italianas e legumes da horta com molho
+            de limão.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">PESCATORE</p>
+            <p class="price">74.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Peixe fresco do dia ao molho cítrico com abóbora e vegetais na
+            brasa.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">POLVO</p>
+            <p class="price">89.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Polvo na brasa, vinagre de beterraba, limão cravo e morangos, rúcula
+            fresca e musseline.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">POLLO</p>
+            <p class="price">49.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Meio galeto assado com risoto de cevadinha e finocchio na brasa.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">MANZO</p>
+            <p class="price">98.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Entrecote de Angus na brasa, molho camponês de cogumelos frescos e
+            batatas.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">PARMEGIANA</p>
+            <p class="price">89.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Filé mignon à parmegiana servido com parpadelle fresco na manteiga a
+            sálvia.
+          </p>
+        </div>
+
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">BRASATO</p>
+            <p class="price">89.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            Fraldinha assada a baixa temperatura, servida com risoto de funghi.
+          </p>
+        </div>
+      </div>
+
+      <div class="title" style="padding-top: 5%">
+        <h1 class="yellow-cursive-font">Sobremesa</h1>
+      </div>
+      <div class="entries">
+        <div class="menu-item">
+          <div class="entries">
+            <p class="default-font">TIRAMISU</p>
+            <p class="price">29.00</p>
+          </div>
+          <p style="padding-left: 6%" class="default-font">
+            O clássico Tiramisu feito com o autêntico mascarpone.
+          </p>
+        </div>
+
+        <div class="menu-item">
+            <div class="entries">
+              <p class="default-font">NUTELLA</p>
+              <p class="price">18.00</p>
+            </div>
+            <p style="padding-left: 6%" class="default-font">
+              O clássico bolinho milanês recheado com queijos artesanais.
+            </p>
+          </div>
+
+          <div class="menu-item">
+            <div class="entries">
+              <p class="default-font">MERINGATA</p>
+              <p class="price">29.00</p>
+            </div>
+            <p style="padding-left: 6%" class="default-font">
+              Um leve creme de chocolate branco
+            </p>
+          </div>
+
+          <div class="menu-item">
+            <div class="entries">
+              <p class="default-font">LIMONE</p>
+              <p class="price">49.00</p>
+            </div>
+            <p style="padding-left: 6%" class="default-font">
+              Mousse de limão siciliano com raspas de chocolate branco e 
+              chantilly de lemoncello.
+            </p>
+          </div>
+    </div>
+
+    <br>
+
+    <footer>
+      <div class="col col-a">
+        <h1 class="default-font">SOBRE NÓS</h1>
+        <hr style="border-color: black; margin-bottom: 2%; margin-top: 0" />
+        <p class="default-font">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla
+          quasi assumenda dolor. Quas ipsam vel corrupti labore animi veniam
+          expedita exercitationem porro placeat velit obcaecati id, amet
+          cupiditate eligendi.
+        </p>
+      </div>
+
+      <div class="col col-b">
+        <img
+          src="./imgs/logo/logo_site_rodape.png"
+          alt="logo rodape"
+          style="width: 200px"
+        />
+        <p class="default-font" style="text-align: center">
+          Rua Florida, 157 <br />
+          Mauá - SP <br />
+          11 4547-1321 | 11 99999-9999 <br />
+          contato@italianbistro.com
+        </p>
+      </div>
+
+      <div class="col col-c">
+        <p class="default-font" style="text-align: end">
+          SEGUNDA A QUINTA: <br />
+          10h às 15h | 18h às 22h <br />
+          <br />
+          SEXTA E SÁBADO: <br />
+          10h às 16h | 17h às 00h <br />
+          <br />
+          DOMINGO: <br />
+          10h às 16h <br />
+          <br />
+        </p>
+
+        <div>
+          <img
+            class="icons"
+            src="./icons/icones_facebook_preto.png"
+            alt="icon facebook"
+          />
+          <img
+            class="icons"
+            src="./icons/icones_instragram_preto.png"
+            alt="icon instagram"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
